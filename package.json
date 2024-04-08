@@ -4,7 +4,7 @@
   "description": "SSApp Template",
   "scripts": {
     "postinstall": "node ./node_modules/octopus/scripts/run dependencies devmode",
-    "build": "node ./node_modules/octopus/scripts/buildDossier",
+    "build": "node ./node_modules/octopus/scripts/buildDossier --bundles=./../opendsu-sdk/builds/output",
     "update": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
